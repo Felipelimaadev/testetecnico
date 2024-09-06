@@ -1,11 +1,10 @@
-# questao1.py
-
+# Código Python para calcular a soma acumulada
 INDICE = 13
 SOMA = 0
 K = 0
 
 while K < INDICE:
-    K = K + 1
-    SOMA = SOMA + K
+    K += 1
+    SOMA += K
 
-print(SOMA)
+print(SOMA)  # Deverá imprimir 91
